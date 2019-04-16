@@ -1,0 +1,33 @@
+@import './base/settings';
+@import './base/base';
+
+
+@import './components/navbar.scss';
+@import './components/title.scss';
+@import './components/product.scss';
+
+body {
+    font-family: 'Oswald','Lato' !important;
+    background-color: #eee;
+}
+
+.propaganda{
+    background-image: url('../img/banner_1.jpg');
+    background-size: cover;
+    background-position: center;
+    // background-color: #000;
+    // border: 1px solid #fff;
+    color: #eee;
+    height: 250px;
+
+}
+// .row {
+//     width: 80% !important;
+//     // margin: 0;
+// }
+
+// .container{
+//     width: 100% !important;
+//     margin-right: 0 !important;
+//     margin-left: 0 !important;
+// }
